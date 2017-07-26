@@ -1,6 +1,6 @@
 # StoneView
 
-![]()
+![0-StoneViewDemo](https://github.com/StoneN/OC-Demos/blob/master/PicturesForREADME/0-StoneViewDemo.gif)
 
 ### 说明：
 
