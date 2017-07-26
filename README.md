@@ -5,7 +5,7 @@
 
 ### 0.图片轮播器(`SliderGalleryView`)
 
-- [0-StoneView](/Users/stone/Desktop/OC-Demos/0-StoneView)
+- [0-StoneView](https://github.com/StoneN/OC-Demos/blob/master/0-StoneView/README-0.md)
 
 
 
