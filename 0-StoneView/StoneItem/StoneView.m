@@ -118,54 +118,36 @@
 }
 
 
-
--(void)sendButtonName1:(NSString *)name1 andName2:(NSString *)name2 andName3:(NSString *)name3
-{
-    if (name1 != NULL) {
-        [self changeButton:1 andName:name1];
-    } else {
-        [self changeButton:1 andName:@"传感器1"];
-    }
-    
-    if (name2 != NULL) {
-        [self changeButton:2 andName:name2];
-    } else {
-        [self changeButton:2 andName:@"传感器2"];
-    }
-    
-    if (name3 != NULL) {
-        [self changeButton:3 andName:name3];
-    } else {
-        [self changeButton:3 andName:@"传感器3"];
-    }
-}
-
 -(void)changeButton:(NSInteger)index andName:(NSString *)name
 {
     switch (index) {
         case 1:
-            if ([name isEqualToString: @"传感器1"]) {
+            if ([name isEqualToString: @"无传感器"]) {
                 _button1.enabled = false;
+                [_button1 setTitle:name forState:UIControlStateDisabled];
             } else {
                 _button1.enabled = true;
+                [_button1 setTitle:name forState:UIControlStateNormal];
+
             }
-            [_button1 setTitle:name forState:UIControlStateNormal];
             break;
         case 2:
-            if ([name isEqualToString:@"传感器2"]) {
+            if ([name isEqualToString:@"无传感器"]) {
                 _button2.enabled = false;
+                [_button2 setTitle:name forState:UIControlStateDisabled];
             } else {
                 _button2.enabled = true;
+                [_button2 setTitle:name forState:UIControlStateNormal];
             }
-            [_button2 setTitle:name forState:UIControlStateNormal];
             break;
         case 3:
-            if ([name isEqualToString:@"传感器3"]) {
+            if ([name isEqualToString:@"无传感器"]) {
                 _button3.enabled = false;
+                [_button3 setTitle:name forState:UIControlStateDisabled];
             } else {
                 _button3.enabled = true;
+                [_button3 setTitle:name forState:UIControlStateNormal];
             }
-            [_button3 setTitle:name forState:UIControlStateNormal];
             break;
         default:
             NSLog(@"Can not find the button!");

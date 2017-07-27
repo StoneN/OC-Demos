@@ -22,6 +22,6 @@
 @interface StoneView : UIView
 
 -(instancetype)initWithFrame:(CGRect)frame andPageIndex:(NSInteger)pageIndex;
--(void)sendButtonName1:(NSString *)name1 andName2:(NSString *)name2 andName3:(NSString *)name3;
+-(void)changeButton:(NSInteger)index andName:(NSString *)name;
 
 @end
