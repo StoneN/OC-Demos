@@ -2,7 +2,7 @@
 
 ![0-StoneViewDemo](https://github.com/StoneN/OC-Demos/blob/master/PicturesForREADME/0-StoneViewDemo.gif)
 
-### 说明：
+##### 说明：
 
 这是我实习第一天写的view，主要包含一个图片轮播器 (`SliderGalleryView`)、三个按钮等。
 
