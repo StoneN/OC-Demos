@@ -1,6 +1,6 @@
 # StoneHorizontalTableView
 
-![1-StoneHorizontalTableViewDemo](https://github.com/StoneN/OC-Demos/blob/master/PicturesForREADME/0-StoneViewDemo.gif)
+![1-StoneHorizontalTableViewDemo](https://github.com/StoneN/OC-Demos/blob/master/PicturesForREADME/1-1-StoneHorizontalTableViewDemo.gif)
 
 ##### 说明：
 
