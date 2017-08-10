@@ -2,7 +2,7 @@
 
 ![1-StoneHorizontalTableViewDemo](https://github.com/StoneN/OC-Demos/blob/master/PicturesForREADME/1-StoneHorizontalTableViewDemo.gif)
 
-##### 说明：
+### 说明：
 
 最近在测试项目里的一个水平表格时发现一个问题：模仿 `UITableView` 实现的 `HorizontalTableView` 在遇到 短时间内需展示的数据量过大 的情况时，就会因为性能问题导致整个页面卡住。不幸的是该项目不可避免的会频繁遇到这种状况，也就只能被迫寻找其他解决方案。
 
